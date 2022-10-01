@@ -1,0 +1,28 @@
+@media (max-width: 1260px) {
+    .header__flex-container{
+        justify-content: space-between;
+    }
+    .header__contacts {
+        margin-left: 0;
+    }
+    .card-link__front,
+    .card-link__back{
+        width: 260px;
+        height: 260px;
+    }
+    .news__item:first-child{
+        width: 680px;
+        height: 540px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .news__item:first-child{
+        width: 640px;
+        height: 520px;
+    }
+    .news__item:not(:first-child) {
+        width: 480px;
+        height: 235px;
+    }
+}
